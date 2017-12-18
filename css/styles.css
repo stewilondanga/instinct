@@ -1,11 +1,114 @@
-h2{
-  color: #eea30d;
-}
-
 body {
   text-align: center;
   font-family: courier;
   background-image:url("../assets/image.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.jsChatHead{
+	width: 100%;
+	min-height: 80px;
+	background-color: #303030;
+	position: fixed;
+	top: 0;
+}
+.jsChatTorso{
+	width: 97.5%;
+	height: 78%;
+	position: fixed;
+	background-color: #393939;
+	top: 80px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	border-radius: 0.3em;
+    border: 1px solid #393939;
+    margin: 0 1% 0 1%;
+}
+.jsChatFoot{
+	width: 100%;
+	background-color: #303030;
+	min-height: 100px;
+	position: fixed;
+	bottom: 0;
+}
+.inputUsername {
+	border-radius: 0.3em;
+    border: 0 solid #393939;
+	background-color: #393939;
+	color: #E0E0E0;
+	height: 20px;
+	width: 97.5%;
+	margin: 0 1% 1% 1%;
+}
+.inputComment {
+	border-radius: 0.3em;
+    border: 0 solid #393939;
+	background-color: #393939;
+	color: #E0E0E0;
+	height: 70px;
+	width: 97%;
+	margin: 0 1% 0 1%;
+}
+#helloUsername {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #909090;
+	height: 20px;
+	margin: 0.5% 0.5% 0 0.5%;
+}
+#helloUsername a {
+	text-decoration: none;
+	color: #66CCFF;
+}
+.chatTitle {
+	font-size: 1.5em;
+	text-align: center;
+}
+.floatRight {
+	font-size: 0.9em;
+	font-weight: normal;
+	float: right;
+}
+.floatRight a {
+	text-decoration: none;
+}
+.hide {
+	display: none;
+}
+.username {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #66CCFF;
+	margin: 0 1% 0.5% 1%;
+}
+.comment {
+	border-bottom: 1px solid #484848;
+	font-size: 0.7em;
+	color: #E8E8E8;
+	margin: 0 1% 0 1%;
+}
+.jsChatButton {
+	margin: 0 0 1.5% 1%;
+	border-radius: 0.3em;
+    border: 0 solid #393939;
+	background-color: #393939;
+	color: #E0E0E0;
+}
+.jsChatButton:hover {
+	background-color: #484848;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #484848;
 }
